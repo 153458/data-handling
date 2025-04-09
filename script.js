@@ -36,3 +36,6 @@ const newCourses = ["History", "Physics"];
 const allCourses = [...student.courses, ...newCourses];
 console.log("Merged Courses Array:", allCourses);
 
+student.addCourse = function (newCourse) {
+  this.courses.push(newCourse);
+};
