@@ -39,3 +39,7 @@ console.log("Merged Courses Array:", allCourses);
 student.addCourse = function (newCourse) {
   this.courses.push(newCourse);
 };
+
+student.totalCourses = function () {
+  return this.courses.length;
+};
