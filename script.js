@@ -43,3 +43,7 @@ student.addCourse = function (newCourse) {
 student.totalCourses = function () {
   return this.courses.length;
 };
+
+student.addCourse("Computer Science");
+console.log("Courses after adding one:", student.courses);
+console.log("Total Courses:", student.totalCourses());
