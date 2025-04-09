@@ -17,3 +17,6 @@ console.log("JSON String:", jsonString);
 
 const newStudent = JSON.parse(jsonString);
 console.log("Parsed Object:", newStudent);
+
+console.log("Is same object?", student === newStudent); 
+
