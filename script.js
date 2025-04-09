@@ -20,3 +20,9 @@ console.log("Parsed Object:", newStudent);
 
 console.log("Is same object?", student === newStudent); 
 
+const { name, courses } = student;
+console.log("Destructured Name:", name);
+console.log("Destructured Courses:", courses);
+
+
+
