@@ -24,5 +24,8 @@ const { name, courses } = student;
 console.log("Destructured Name:", name);
 console.log("Destructured Courses:", courses);
 
-
+const scores = [70, 92, 78, 50];
+const [firstScore, secondScore] = scores;
+console.log("First Score:", firstScore);
+console.log("Second Score:", secondScore);
 
